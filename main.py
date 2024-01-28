@@ -23,7 +23,6 @@ guess = int(input("Guess a number:- "))
 if X == guess:
     print("congrats you did it in", count, "try")
 #Once guessed the loop end
-    break
 #Testing condition
 elif X > guess:
     print("you guess too high!")
